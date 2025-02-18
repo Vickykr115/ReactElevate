@@ -11,13 +11,13 @@ function App() {
 
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
         <div className="container">
-          <a className="navbar-brand" >React & Redux</a>
+          <a className="navbar-brand" href="#">React & Redux</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="mynavbar">
             <ul className="navbar-nav mx-auto">
-              <li className="nav-item me-4">
+            <li className="nav-item me-4">
                 <Link className="nav-link active" to="/" >Dashboard</Link>
               </li>
               <li className="nav-item me-4">
@@ -26,7 +26,7 @@ function App() {
               <li className="nav-item me-4">
                 <Link className="nav-link active" to="/user" >Manage User</Link>
               </li>
-
+              
             </ul>
           </div>
         </div>
@@ -34,16 +34,13 @@ function App() {
 
 
       <Routes>
-        <Route exact path="/" element={<Mydashboard />} />
+      <Route exact path="/" element={<Mydashboard />} />
         <Route exact path="/counter" element={<Counter />} />
         <Route exact path="/user" element={<UserForm />} />
-
+       
       </Routes>
     </HashRouter>
-    // <div className="App">
-    //   {/* <Counter /> */}
-    //   <UserForm />
-    // </div>
+    
   );
 }
 

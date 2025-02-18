@@ -38,6 +38,7 @@ const UserForm = () => {
         setAddress("");
         setMobile("");
         setEmail("");
+        console.log(alluser);
     };
 
     return (
