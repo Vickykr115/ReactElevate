@@ -11,7 +11,7 @@ function App() {
 
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
         <div className="container">
-          <a className="navbar-brand" href="#">React & Redux</a>
+          
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span className="navbar-toggler-icon"></span>
           </button>
